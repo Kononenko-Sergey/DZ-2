@@ -1,0 +1,59 @@
+body{
+	background: #7e7d7d;
+}
+.middle-container{
+	margin: 0px auto;
+	max-width: 720px;
+	background:#fff;
+	border-radius: 5px;
+}
+.logo{
+	width: 180px;
+	float: left;
+	padding-right: 10px;
+}
+.middle-container h1{
+    padding-top: 30px;
+    margin-top: 0px;
+} 
+.menu{
+	margin-bottom: 0px;
+}
+.menu li{
+	display: inline-block;
+}
+
+.hover{
+	position: relative;
+}
+.submenu{
+	display: none;
+	position: absolute;
+	padding: 0 0 5px;
+    width: 68%;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.menu > .hover:hover > .submenu{
+	display: block;
+}
+main article{
+	padding: 0 10px;
+}
+main article h2{
+	margin-top: 0px;
+}
+main article p{
+	margin: 0px;
+}
+.mail, .name{
+    display: block;
+    text-align: center;
+}    
+
+
+
+
+
+
