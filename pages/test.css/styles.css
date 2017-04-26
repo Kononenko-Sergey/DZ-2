@@ -1,5 +1,6 @@
 body{
 	background: #7e7d7d;
+	margin: 0;
 }
 .middle-container{
 	margin: 0px auto;
@@ -38,7 +39,9 @@ body{
 .menu > .hover:hover > .submenu{
 	display: block;
 }
-
+main{
+	text-align: justify;
+}
 main form{
 	padding: 10px;
 }

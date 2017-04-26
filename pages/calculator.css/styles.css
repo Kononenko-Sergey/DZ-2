@@ -1,5 +1,6 @@
 body{
 	background: #7e7d7d;
+	margin: 0;
 }
 .middle-container{
 	margin: 0px auto;
@@ -38,19 +39,28 @@ body{
 .menu > .hover:hover > .submenu{
 	display: block;
 }
-table{
-    width: 220px;
-    margin: 0px auto;
-    padding: 10px 0;
+main{
+	text-align: justify;
 }
-table button{
-	width: 100%;
+table {
+   margin: 0 auto;
 }
-table input{
-	width: 212px;
+td {
+   padding: 0;
+   line-height: 0;
+   width: 30px;
 }
-.button-equally{
-	height: 48px;
+table button {
+   width: 100%;   
+   margin: 0;
+   height: 20px;
+   line-height: 13px;
+}
+table input {
+   width: 180px;   
+}
+.button-equally {
+   height: 42px;     
 }
 .mail, .name{
     display: block;
