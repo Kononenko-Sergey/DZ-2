@@ -26,15 +26,22 @@ body{
 
 .hover{
 	position: relative;
+	padding: 0;
+   	line-height: 0;
 }
 .submenu{
 	display: none;
 	position: absolute;
-	padding: 0 0 5px;
+    top: 8px;
+    padding: 0 0 5px;
     width: 68%;
     background: #fff;
     border-radius: 5px;
     border: 1px solid #000;
+    line-height: 1;
+}
+.submenu li{
+	padding-left: 5px;
 }
 .menu > .hover:hover > .submenu{
 	display: block;
@@ -46,11 +53,11 @@ main article, main a{
 	padding: 0 10px;
 }
 .col-right{
-	width: 20%;
+	width: 25%;
 	float: right;
 	background: #a29898;
 	border-radius: 5px;
-	font-size: 11px;
+	font-size: 13px;
     margin: 5px;
 }
 .col-right h3{

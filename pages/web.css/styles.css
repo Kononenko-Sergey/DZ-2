@@ -26,15 +26,22 @@ body{
 
 .hover{
 	position: relative;
+	padding: 0;
+   	line-height: 0;
 }
 .submenu{
 	display: none;
 	position: absolute;
-	padding: 0 0 5px;
+    top: 8px;
+    padding: 0 0 5px;
     width: 68%;
     background: #fff;
     border-radius: 5px;
     border: 1px solid #000;
+    line-height: 1;
+}
+.submenu li{
+	padding-left: 5px;
 }
 .menu > .hover:hover > .submenu{
 	display: block;
@@ -49,8 +56,8 @@ main{
 main ul{
 	margin: 0px;
 }
-.margin-top-off{
-	margin-top: 0px;
+.margin-off{
+	margin: 0px;
 }
 .main-bottom{
 	margin-bottom: 0px;
